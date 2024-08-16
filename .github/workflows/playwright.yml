@@ -103,7 +103,7 @@ jobs:
 
       - name: Merge into HTML reports
 
-        run: npm playwright merge-reports --reporter html ./blob-report
+        run: npm playwright merge-reports --reporter=html ./blob-report
 
 
 
